@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.css">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>1-5 макет</title>
+</head>
+<body>
+
+    <div class="brands-header">
+        <h1 class="brands-header__title">Ремонт техники различных брендов</h1>
+    </div>
+
+    <section class="brands-list swiper ">
+        
+        <div  class="brands-list__wrapper swiper-wrapper">
+            <div class="brands-list__item swiper-slide">
+              <img src="img/lenovo.png" alt="lenovo">
+              <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div class="brands-list__item swiper-slide">
+                <img src="img/samsung.png" alt="samsung">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div class="brands-list__item swiper-slide">
+                <img src="img/apple.png" alt="apple">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div id="hidden"  class="brands-list__item swiper-slide brands-list__item--hidden desktop">
+                <img src="img/sonic.png" alt="viewsonic">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div class="brands-list__item swiper-slide">
+                <img src="img/bosch.png" alt="bosch">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div class="brands-list__item swiper-slide">
+                <img src="img/hp.png" alt="hp">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div class="brands-list__item swiper-slide">
+                <img src="img/acer.png" alt="acer">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+
+            <div id="hidden" class="brands-list__item swiper-slide brands-list__item--hidden desktop">
+                <img src="img/sony.png" alt="sony">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div id="hidden" class="brands-list__item swiper-slide brands-list__item--hidden">
+                <img src="img/lenovo.png" alt="lenovo">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+           
+            <div id="hidden" class="brands-list__item swiper-slide brands-list__item--hidden ">
+                <img src="img/samsung.png" alt="samsung">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            <div id="hidden" class="brands-list__item swiper-slide brands-list__item--hidden">
+                <img src="img/apple.png" alt="apple">
+                <button><img src="img/go.png" alt="go"></button>
+            </div>
+            
+        </div>
+
+        <div id="swiper-pagination" class="swiper-pagination"></div>
+
+    </section>
+    <button id="btn-more" class="brands-list__show-more"><span>Показать все</span></button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
