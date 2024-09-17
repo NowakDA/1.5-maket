@@ -32,7 +32,6 @@ function checkScreenWidth() {
 }
 
 checkScreenWidth();
-// Добавление обработчика события на изменение размера окна
 window.addEventListener('resize', function() {
     checkScreenWidth();
 });
@@ -57,6 +56,9 @@ button.addEventListener('click', function () {
     
    
 })
+
+
+
 
 
 
