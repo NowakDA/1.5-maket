@@ -137,7 +137,7 @@ html {
         display: none;
     }
 
-    .brands-list__wrapper {
+    .brands-list {
         box-sizing: border-box;
         padding: 24px;
         width: fit-content;
@@ -183,7 +183,7 @@ html {
 
 
 @media (min-width: 1120px) {
-    .brands-list__wrapper {
+    .brands-list {
         grid-template-columns: repeat(4, 1fr);
     }
 
