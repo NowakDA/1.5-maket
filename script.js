@@ -40,7 +40,7 @@ window.addEventListener('resize', function() {
 // КНОПКА ПОКАЗАТЬ ВСЕ
 
 let button = document.querySelector('.brands-list__show-more');
-let brend_list =  document.querySelector('.brands-list__wrapper');
+let brend_list =  document.querySelector('.brands-list');
 let button_text = document.querySelector('.brands-list__show-more > span');
 let hidden = brend_list.querySelectorAll('#hidden');
 
